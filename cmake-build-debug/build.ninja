@@ -55,6 +55,18 @@ build CMakeFiles/CSC450_CTA1.dir/fictionalPerson.cpp.obj: CXX_COMPILER__CSC450_C
   OBJECT_DIR = CMakeFiles\CSC450_CTA1.dir
   OBJECT_FILE_DIR = CMakeFiles\CSC450_CTA1.dir
 
+build CMakeFiles/CSC450_CTA1.dir/CSC450_CTA1_mod1_1.cpp.obj: CXX_COMPILER__CSC450_CTA1_unscanned_Debug C$:/Users/Jake/OneDrive/Desktop/Folder/School/CSU$ Global/CSC450/CSC450$ CTA1/CSC450_CTA1_mod1_1.cpp || cmake_object_order_depends_target_CSC450_CTA1
+  DEP_FILE = CMakeFiles\CSC450_CTA1.dir\CSC450_CTA1_mod1_1.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CSC450_CTA1.dir
+  OBJECT_FILE_DIR = CMakeFiles\CSC450_CTA1.dir
+
+build CMakeFiles/CSC450_CTA1.dir/CSC450_CTA1_mod1_2.cpp.obj: CXX_COMPILER__CSC450_CTA1_unscanned_Debug C$:/Users/Jake/OneDrive/Desktop/Folder/School/CSU$ Global/CSC450/CSC450$ CTA1/CSC450_CTA1_mod1_2.cpp || cmake_object_order_depends_target_CSC450_CTA1
+  DEP_FILE = CMakeFiles\CSC450_CTA1.dir\CSC450_CTA1_mod1_2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CSC450_CTA1.dir
+  OBJECT_FILE_DIR = CMakeFiles\CSC450_CTA1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CSC450_CTA1
@@ -63,7 +75,7 @@ build CMakeFiles/CSC450_CTA1.dir/fictionalPerson.cpp.obj: CXX_COMPILER__CSC450_C
 #############################################
 # Link the executable CSC450_CTA1.exe
 
-build CSC450_CTA1.exe: CXX_EXECUTABLE_LINKER__CSC450_CTA1_Debug CMakeFiles/CSC450_CTA1.dir/fictionalPerson.cpp.obj
+build CSC450_CTA1.exe: CXX_EXECUTABLE_LINKER__CSC450_CTA1_Debug CMakeFiles/CSC450_CTA1.dir/fictionalPerson.cpp.obj CMakeFiles/CSC450_CTA1.dir/CSC450_CTA1_mod1_1.cpp.obj CMakeFiles/CSC450_CTA1.dir/CSC450_CTA1_mod1_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CSC450_CTA1.dir
